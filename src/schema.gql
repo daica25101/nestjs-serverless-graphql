@@ -1,0 +1,24 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""products"""
+type Product {
+  name: String
+  description: String!
+}
+
+type Query {
+  product(id: String!): Product!
+  products: [Product!]!
+}
+
+type Mutation {
+  create(product: PostProductRequestDTO!): Product!
+  removeProduct(id: String!): Product!
+}
+
+input PostProductRequestDTO {
+  name: String!
+  description: String
+}

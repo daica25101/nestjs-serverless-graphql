@@ -11,7 +11,7 @@ export const databaseProviders = [
         username: 'root',
         password: 'root123456',
         database: 'serverless-training',
-        modelPaths: ['src/modules/api/entities']
+        modelPaths: ['src/modules/**/*.entity.ts']
       });
       await sequelize.sync();
       return sequelize;

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1be0aa3-d14e-4aa3-a412-243ea5c3f160" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.sequelizerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/adapters/exception/exception.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/adapters/exception/exception.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/adapters/exception/exception.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/adapters/graphql/resolvers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/adapters/graphql/resolvers/product.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/adapters/logger/logger.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/adapters/logger/logger.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/api/dtos/product.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/api/resolvers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/api/resolvers/product.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/product.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/product.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/product.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/product.middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/product.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/product.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/adapters/graphql/graphql.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/adapters/graphql/graphql.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/adapters/orms/database.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/adapters/database/database.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/adapters/orms/providers/sequelize.provider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/adapters/database/providers/sequelize.provider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/api/api.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/api/api.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/api/dtos/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/api/dtos/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/api/services/base.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/api/services/base.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/api/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/api/services/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/api/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/api/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2Ejw6vuppLIMgIQpA4LettWcNbB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/product" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/product" />
+      <recent name="$PROJECT_DIR$/src/modules/api" />
+      <recent name="$PROJECT_DIR$/src/modules/api/services" />
+      <recent name="$PROJECT_DIR$/src/modules/api/middlewares" />
+      <recent name="$PROJECT_DIR$/src/modules/api/helpers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/adapters/graphql" />
+      <recent name="$PROJECT_DIR$/src/modules/api" />
+      <recent name="$PROJECT_DIR$/src/modules/adapters" />
+      <recent name="$PROJECT_DIR$/src/modules/database" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Debug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1be0aa3-d14e-4aa3-a412-243ea5c3f160" name="Default Changelist" comment="" />
+      <created>1663122130915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663122130915</updated>
+      <workItem from="1663122134623" duration="61538000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/modules/api/api.module.js" />
+        <option value="$PROJECT_DIR$/src/modules/adapters/exception/exception.service.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/controllers/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/controllers/product.controller.js" />
+        <option value="$PROJECT_DIR$/src/modules/adapters/exception/exception.module.js" />
+        <option value="$PROJECT_DIR$/src/modules/adapters/exception/exception.interface.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/services/product.service.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/services/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/controllers/user.controller.js" />
+        <option value="$PROJECT_DIR$/src/config/configuration.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/dtos/product.dto.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/dtos/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/services/base.service.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/services/user.service.js" />
+        <option value="$PROJECT_DIR$/src/modules/adapters/graphql/resolvers/product.resolver.js" />
+        <option value="$PROJECT_DIR$/src/modules/adapters/graphql/resolvers/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/middlewares/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/helpers/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/adapters/database/database.module.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/resolvers/product.resolver.js" />
+        <option value="$PROJECT_DIR$/src/modules/adapters/graphql/directives/upper-case.directive.js" />
+        <option value="$PROJECT_DIR$/src/modules/product/product.dto.js" />
+        <option value="$PROJECT_DIR$/src/modules/product/product.resolver.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/resolvers/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/api/entities/product.entity.js" />
+        <option value="$PROJECT_DIR$/src/modules/product/product.controller.js" />
+        <option value="$PROJECT_DIR$/src/modules/product/product.service.js" />
+        <option value="$PROJECT_DIR$/src/modules/product/product.entity.js" />
+        <option value="$PROJECT_DIR$/src/modules/product/product.module.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/modules/adapters/graphql/graphql.module.js" />
+        <option value="$PROJECT_DIR$/src/modules/product/product.middleware.js" />
+        <option value="$PROJECT_DIR$/src/app.module.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app.module.ts</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/product/product.resolver.ts</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/product/product.resolver.ts</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

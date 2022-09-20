@@ -14,7 +14,8 @@
       "@api/*": ["modules/api/*"],
       "@database/*": ["modules/database/*"],
       "@config/*": ["config/*"],
-      "@providers/*": ["modules/database/providers"]
+      "@providers/*": ["modules/database/providers"],
+      "@adapters/*": ["modules/adapters/*"]
     },
     "incremental": true,
     "skipLibCheck": true,
