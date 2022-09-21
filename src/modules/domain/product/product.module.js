@@ -10,7 +10,7 @@ exports.ProductModule = void 0;
 var common_1 = require("@nestjs/common");
 var product_resolver_1 = require("./product.resolver");
 var product_service_1 = require("./product.service");
-var exception_module_1 = require("../adapters/exception/exception.module");
+var exception_module_1 = require("../../adapters/exception/exception.module");
 var ProductModule = /** @class */ (function () {
     function ProductModule() {
     }

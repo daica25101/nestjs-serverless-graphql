@@ -3,12 +3,14 @@ import { Product } from "./product.entity";
 import { Injectable, NotFoundException } from "@nestjs/common";
 import { ProductService } from "./product.service";
 import { GetProductRequestDTO, PostProductRequestDTO } from "./product.dto";
+import {ProductException} from "./product.exception";
 
 @Resolver(of => Product)
 export class ProductResolver {
 
   constructor(
-    private readonly productService: ProductService
+    private readonly productService: ProductService,
+    private readonly productException: ProductException
   ) {}
 
   @Query(returns => Product, {name: 'product'})
