@@ -1,4 +1,5 @@
 import { Sequelize } from "sequelize-typescript";
+import { Product } from "../../../core/domain/product/product.entity";
 
 export const databaseProviders = [
   {
@@ -11,7 +12,7 @@ export const databaseProviders = [
         username: 'root',
         password: 'root123456',
         database: 'serverless-training',
-        modelPaths: ['src/modules/**/*.entity.ts']
+        modelPaths: ['src/core/domain/**/*.entity.ts']
       });
       await sequelize.sync();
       return sequelize;
