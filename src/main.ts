@@ -1,9 +1,7 @@
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
-import {appConfig} from "@config/configuration";
-import serverlessExpress from '@vendia/serverless-express';
-import { Callback, Context, Handler } from "aws-lambda";
-import { ApiModule } from "@api/api.module";
+import { NestFactory } from "@nestjs/core";
+import { AppModule } from "./app.module";
+import { appConfig } from "@config/configuration";
+import { Handler } from "aws-lambda";
 
 let server: Handler;
 async function bootstrap() {
