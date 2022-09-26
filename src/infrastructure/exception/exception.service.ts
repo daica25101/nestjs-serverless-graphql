@@ -1,4 +1,4 @@
-import { IException, IExceptionMessage } from "./exception.interface";
+import { IException, IExceptionMessage } from "../../core/infrastructure-adapters/exception/exception.interface";
 import { Injectable } from "@nestjs/common";
 
 @Injectable()
