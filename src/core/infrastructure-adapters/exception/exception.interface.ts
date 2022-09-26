@@ -4,6 +4,7 @@ export interface IExceptionMessage {
   stackTrace?: string
 }
 
+
 export interface IException {
   badRequestException(data: IExceptionMessage): void;
   internalServerErrorException(data?: IExceptionMessage): void;

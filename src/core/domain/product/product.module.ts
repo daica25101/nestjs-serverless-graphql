@@ -1,13 +1,13 @@
 import {Module} from "@nestjs/common";
-import {ProductResolver} from "./product.resolver";
-import {ProductService} from "../../use-cases/product.service";
-import {ExceptionModule} from "../../../infrastructure/exception/exception.module";
+import {ProductResolver} from "@infrastructure/graphql/resolvers";
+import {ProductGet} from "../../use-cases/product.get";
+import {ExceptionModule} from "@infrastructure/exception/exception.module";
 import {ProductException} from "./product.exception";
 
 @Module({
   imports: [
     ExceptionModule,
   ],
-  providers: [ProductService, ProductResolver, ProductException],
+  providers: [ProductGet, ProductResolver, ProductException],
 })
 export class ProductModule {}

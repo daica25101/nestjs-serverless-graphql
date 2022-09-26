@@ -11,11 +11,10 @@
     "outDir": "./dist",
     "baseUrl": "./src",
     "paths": {
-      "@api/*": ["modules/api/*"],
-      "@database/*": ["modules/database/*"],
-      "@config/*": ["config/*"],
-      "@providers/*": ["modules/database/providers"],
-      "@adapters/*": ["modules/adapters/*"]
+      "@core/*": ["core/*"],
+      "@domain/*": ["domain/*"],
+      "@infrastructure/*": ["infrastructure/*"],
+      "@config/*": ["config/*"]
     },
     "incremental": true,
     "skipLibCheck": true,
